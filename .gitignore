@@ -1,0 +1,51 @@
+# Environment variables and credentials
+
+.env
+.env.*
+!.env.example
+
+# Database backups and dumps
+
+*.bak
+*.backup
+*.dump
+*.sql.gz
+*.sqlite
+*.sqlite3
+*.db
+
+# MySQL logs
+
+*.log
+*.err
+*.pid
+
+# Temporary files
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# OS-generated files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor settings (optional)
+
+.vscode/
+.idea/
+
+# Python files (if using Python with SQL)
+
+**pycache**/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
